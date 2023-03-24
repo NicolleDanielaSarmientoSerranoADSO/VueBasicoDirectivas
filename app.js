@@ -1,4 +1,4 @@
 import { createApp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
-import myimg from './component/myimg.js'
+import myDiv from './component/myDiv.js'
 
-createApp(myimg).mount('#app')
+createApp(myDiv).mount('#app')
