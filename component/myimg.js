@@ -1,10 +1,10 @@
 export default{
     data(){
         return {
-            atributo: "src",
-            Imagen: "https://i.scdn.co/image/ab6761610000e5ebeb27e0d833dcc24c376cb24c" , 
-            atributo2: "alt",
-            texto: "Diferencias entre vue2 y vue3   "
+            Imagen:{
+                src:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rp-morat-060922-03954-1663847464.jpg",
+                title: "Diferencias entre vue2 y vu3"
        }
     }
+}
 }
