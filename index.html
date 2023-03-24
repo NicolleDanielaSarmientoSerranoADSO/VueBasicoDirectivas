@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue js</title>
     <script src="app.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
-        <input type="text" v-model="mensaje">
-        <h1>{{mensaje}}</h1>
-        <strong v-text="mensaje"></strong>
+        <label>Zona Franja: <strong>Campus</strong></label>
+        <div>
+            <input type="radio" v-model="centinela" v-bind:value="true">Ver
+            <input type="radio" v-model="centinela" v-bind:value="false">ocultar
+        </div>
+        <div v-show="centinela" class="info">Los mejores programadores de colombia</div>
     </div>
 </body>
 </html>
